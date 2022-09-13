@@ -1,2 +1,2 @@
 # stock-news
-Stock News Alert using Alphavantage API, News API and Twilio API
+Alert which sends news of a particular stock in a message format on mobile when that stock is up/down by particular percentage using Alphavantage API, News API and Twilio API.
