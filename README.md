@@ -1,2 +1,2 @@
-# stock-news
-Alert which sends news of a particular stock in a message format on mobile when that stock is up/down by particular percentage using Alphavantage API, News API and Twilio API.
+# Stock News Alert
+The project retrieves stock data and relevant news for a given stock (e.g., "STOCK_NAME"). It fetches the latest stock prices for today and yesterday from Alpha Vantage, calculates the percentage change in the stock's closing value, and determines whether the price has increased or decreased. If there is a significant price change, it pulls the top three news articles related to the company using the News API. The stock performance and news headlines are then formatted and sent as SMS notifications using the Twilio API to a specified phone number.
